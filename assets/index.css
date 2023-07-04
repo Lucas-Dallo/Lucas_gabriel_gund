@@ -1,0 +1,100 @@
+
+*{
+    background-color: #2e2e2e;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+    border-radius: 8px;
+}
+.title{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #de9100;
+    font-weight: bold;
+
+}
+.subtitle{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.text{
+    color: #fff;
+    font-size: 16px;
+}
+.text .gold{
+    font-weight: bold;
+    color: #de9100;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.section-about-us{
+    
+}
+.section-presentation {
+  
+    padding: 20px 0;
+    position: sticky;
+    align-items: center;
+    background-color: #2e2e2e;
+    left: 0;
+    top: -2px;
+    right: 0;
+    box-shadow: 0 2px 8px 0 #3b3b3b;
+
+
+}
+.section-presentation .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-presentation .row .title{
+    color: #de9100 ;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+.section-presentation .row .name{
+    color: #de9100 ;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+.text{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.wrapper-text{
+    width: 60%;
+}
+.section-hobby,
+.section-curiosidades{
+    margin-top: 100px;
+    
+}
+.item-list{
+    color: #fff;
+    list-style: none;
+    margin-top:5px;
+}
+
+.section-tupa .container,
+.section-too .container,
+.section-poa .container,
+.section-nascimeto .container{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    
+
+}
